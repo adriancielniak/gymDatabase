@@ -10,7 +10,7 @@ CREATE TABLE Users(
     [e-mail] NVARCHAR(50) NOT NULL
 )
 
---KARNETYf
+--KARNETY
 
 CREATE TABLE Passes(
     passID INT IDENTITY(1,1) PRIMARY KEY,
@@ -21,7 +21,7 @@ CREATE TABLE Passes(
     users INT NOT NULL,
 )
 
---CZLONKOWIE KLUBU
+--Czlonkowie Klubuclear
 
 CREATE TABLE Members(
     userID INT REFERENCES Users PRIMARY KEY,
